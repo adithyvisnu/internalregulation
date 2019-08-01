@@ -5,7 +5,6 @@ class kerjaan extends MY_Controller {
   public function __construct()
   {
     parent::__construct();
-
     $this->cekLogin();
     $this->load->model('model_pekerjaan');
   }
